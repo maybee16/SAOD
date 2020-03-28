@@ -13,21 +13,46 @@ const int n = 10000;
 int main()
 {
 	setlocale(LC_ALL, "Rus");
-	int* mass = new int[n];
+	struct MyStruct
+	{
+		int a;
+	};
+
+	MyStruct* mstr = new MyStruct[10];
+	int* mass1 = new int[n];
+	float* mass2 = new float[n];
 	int min = 0;
 	int max = 1000;
-	rand_mass(mass, n, min, max);
+
+	//поиск по целочисленному массиву
+	rand_mass<int*>(mass1, n, min, max);
 	cout << "Введенный массив : " << endl;
-	output(mass, n);
+	output<int*>(mass1, n);
 	unsigned int start_time = clock(); // начальное время
-	cout << search(mass, n, min + rand() % max) << endl;
+	cout << search<int*>(mass1, n, min + rand() % max) << endl;
 	unsigned int end_time = clock(); // конечное время
 	cout << "Время поиска по ключу : " << ((float)end_time - start_time) / CLOCKS_PER_SEC << " секунды " << endl;
-	input(mass, 10);
+
+	//поиск по вещественному массиву
+	rand_mass<float*>(mass2, n, min, max);
+	cout << "Введенный массив : " << endl;
+	output<float*>(mass2, n);
+	cout << search<float*>(mass2, n, min + rand() % max) << endl;
+	
+	input<int*>(mass1, 10);
 	cout << "Введенный массив : ";
-	output(mass, 10);
-	cout << search(mass, 10, 5) << endl;
-	delete(mass);
+	output(mass1, 10);
+	cout << search<int*>(mass1, 10, 5) << endl;
+
+	//поиск по массиву структуры
+	input<MyStruct*>(mstr, 10);
+	cout << "Введенный массив : " << endl;
+	output<MyStruct*>(mstr, 10);
+	cout << search<MyStruct*>(mstr, n, min + rand() % max) << endl;
+
+	delete(mass1);
+	delete(mass2);
+	delete(mstr);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
