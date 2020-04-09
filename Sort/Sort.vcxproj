@@ -152,7 +152,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Sort.cpp" />
-    <ClCompile Include="Sorting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sorting.h" />

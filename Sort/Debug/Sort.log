@@ -1,9 +1,17 @@
 ﻿  Sort.cpp
-C:\Users\HP\Desktop\SAOD\Sort\Sorting.h(146,19): warning C4018:  <: несоответствие типов со знаком и без знака
-C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(61): message :  выполняется компиляция ссылки на экземпляр шаблон функции "std::string shell_sort<int>(T *,unsigned int)"
-C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(61): message :         with
-C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(61): message :         [
-C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(61): message :             T=int
-C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(61): message :         ]
-C:\Users\HP\Desktop\SAOD\Sort\Sorting.h(155,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\Sort\Sorting.h(10,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(22): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void rand_mass<int*>(T,unsigned int,int,int)"
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(22): message :         with
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(22): message :         [
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(22): message :             T=int *
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(22): message :         ]
+C:\Users\HP\Desktop\SAOD\Sort\Sorting.h(19,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(27): message :  выполняется компиляция ссылки на экземпляр шаблон функции "std::string bubble_sort<int>(T *,unsigned int)"
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(27): message :         with
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(27): message :         [
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(27): message :             T=int
+C:\Users\HP\Desktop\SAOD\Sort\Sort.cpp(27): message :         ]
+C:\Users\HP\Desktop\SAOD\Sort\Sorting.h(21,21): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\Sort\Sorting.h(31,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\Sort\Sorting.h(11,17): warning C4244:  =: преобразование "int" в "float", возможна потеря данных
   Sort.vcxproj -> C:\Users\HP\Desktop\SAOD\Sort\Debug\Sort.exe
