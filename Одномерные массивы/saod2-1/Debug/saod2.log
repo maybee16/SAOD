@@ -1,0 +1,11 @@
+﻿  functions.cpp
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(8,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(15,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(26,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(30,11): warning C4552:  "+": результат выражения не используется
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(30,18): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(42,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(51,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(59,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\saod2\functions.cpp(67,20): warning C4018:  <: несоответствие типов со знаком и без знака
+  saod2.vcxproj -> C:\Users\HP\Desktop\SAOD\saod2\Debug\saod2.exe
