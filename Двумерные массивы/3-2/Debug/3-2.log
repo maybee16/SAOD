@@ -1,0 +1,9 @@
+﻿  func.cpp
+C:\Users\HP\Desktop\SAOD\3-2\func.cpp(8,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-2\func.cpp(10,21): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-2\func.cpp(18,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-2\func.cpp(20,25): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-2\func.cpp(23,22): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-2\func.cpp(33,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-2\func.cpp(35,21): warning C4018:  <: несоответствие типов со знаком и без знака
+  3-2.vcxproj -> C:\Users\HP\Desktop\SAOD\3-2\Debug\3-2.exe

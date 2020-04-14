@@ -1,0 +1,14 @@
+﻿  3-1.cpp
+  func.cpp
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(7,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(9,21): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(16,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(18,21): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(28,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(30,21): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(37,10): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(39,10): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(51,20): warning C4018:  <: несоответствие типов со знаком и без знака
+  Создание кода...
+C:\Users\HP\Desktop\SAOD\3-1\func.cpp(53,21): warning C4018:  <: несоответствие типов со знаком и без знака
+  3-1.vcxproj -> C:\Users\HP\Desktop\SAOD\3-1\Debug\3-1.exe
